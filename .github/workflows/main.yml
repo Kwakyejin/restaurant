@@ -1,0 +1,14 @@
+name: CI
+on:
+  push:
+      branches: [ master ]
+  pull_request:
+      branches: [ master ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: fwilhe2/setup-kotlin@main
+      - run: kotlinc kotlin.kt -include-runtime -d kotlin.jar; java -jar kotlin.jar
