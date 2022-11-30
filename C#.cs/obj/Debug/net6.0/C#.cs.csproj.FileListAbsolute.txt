@@ -1,0 +1,15 @@
+/Users/kwak-yejin/Downloads/과제2/C#.cs/bin/Debug/net6.0/C#.cs
+/Users/kwak-yejin/Downloads/과제2/C#.cs/bin/Debug/net6.0/C#.cs.deps.json
+/Users/kwak-yejin/Downloads/과제2/C#.cs/bin/Debug/net6.0/C#.cs.runtimeconfig.json
+/Users/kwak-yejin/Downloads/과제2/C#.cs/bin/Debug/net6.0/C#.cs.dll
+/Users/kwak-yejin/Downloads/과제2/C#.cs/bin/Debug/net6.0/C#.cs.pdb
+/Users/kwak-yejin/Downloads/과제2/C#.cs/obj/Debug/net6.0/C#.cs.csproj.AssemblyReference.cache
+/Users/kwak-yejin/Downloads/과제2/C#.cs/obj/Debug/net6.0/C#.cs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kwak-yejin/Downloads/과제2/C#.cs/obj/Debug/net6.0/C#.cs.AssemblyInfoInputs.cache
+/Users/kwak-yejin/Downloads/과제2/C#.cs/obj/Debug/net6.0/C#.cs.AssemblyInfo.cs
+/Users/kwak-yejin/Downloads/과제2/C#.cs/obj/Debug/net6.0/C#.cs.csproj.CoreCompileInputs.cache
+/Users/kwak-yejin/Downloads/과제2/C#.cs/obj/Debug/net6.0/C#.cs.dll
+/Users/kwak-yejin/Downloads/과제2/C#.cs/obj/Debug/net6.0/refint/C#.cs.dll
+/Users/kwak-yejin/Downloads/과제2/C#.cs/obj/Debug/net6.0/C#.cs.pdb
+/Users/kwak-yejin/Downloads/과제2/C#.cs/obj/Debug/net6.0/C#.cs.genruntimeconfig.cache
+/Users/kwak-yejin/Downloads/과제2/C#.cs/obj/Debug/net6.0/ref/C#.cs.dll
