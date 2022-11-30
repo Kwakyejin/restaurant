@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: fwilhe2/setup-kotlin@main
-      - run: kotlinc kotlin.kt -include-runtime -d kotlin.jar; java -jar kotlin.jar
+      - run: kotlinc Kotlin.kt -include-runtime -d Kotlin.jar; java -jar Kotlin.jar
