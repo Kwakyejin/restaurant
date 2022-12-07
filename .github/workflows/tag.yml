@@ -8,14 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
     - run: kotlinc Kotlin.kt -include-runtime -d Kotlin.jar; java -jar Kotlin.jar
-    
     - uses: actions/upload-artifact@v3
       with:
         name: my-artifact
         path: Kotlin.jar
-        
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
