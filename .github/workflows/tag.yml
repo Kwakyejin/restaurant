@@ -15,6 +15,7 @@ jobs:
       with:
         name: my-artifact
         path: Kotlin.jar
+        
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
@@ -25,6 +26,7 @@ jobs:
         release_name: Release ${{ github.ref }}
         draft: false
         prerelease: false
+        
     - name: Upload Release Asset
       id: upload-release-asset 
       uses: Fhwang0926/upload-release-asset@v1.1.8
@@ -34,8 +36,3 @@ jobs:
         upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
         asset_name: ./latest.installer.exe # path + filename
         asset_label: latest 
-        
-        
-        
-   
-      
