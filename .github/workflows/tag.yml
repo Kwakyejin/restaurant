@@ -1,10 +1,8 @@
 name: release
 on:
   push:
-      tags: [ master ]
-  pull_request:
-      tags: [ master ]
-  workflow_dispatch:
+    tags:
+      - 'v*'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,13 +15,10 @@ jobs:
       with:
         name: my-artifact
         path: Kotlin.jar
-        
-    - uses: actions/checkout@v2
-    - uses: CupOfTea696/gh-action-auto-release@v1.0.0
+  
+    - uses: d1ceward/draft-assets-release-action@v1
       with:
-        title: "Release: $version"
-        tag: "v$semver"
-        draft: false
-        regex: "/^Release: #{semver}$/i"
-      env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        name: my-binary
+        path: bin/my-binary
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
